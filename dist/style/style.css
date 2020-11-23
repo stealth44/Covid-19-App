@@ -1,0 +1,51 @@
+.result-container{
+			
+    background-image: url('images/covid.jpg');
+    background-position: center;
+  
+    background-repeat: none;
+    margin-left: 2px;
+    padding-left: 2px;
+}
+.container, .header{
+    
+    text-align: center;
+}
+body{
+   
+    font-family: arial, monospace, sans-serif;
+    font-size: 16px;
+}
+strong.recov{
+    background-color: green;
+    display: inline;
+}
+strong.NC{
+    background-color: blue;
+    display: inline;
+}
+strong.TD{
+    background-color: red;
+    display: inline;
+}
+strong.TC{
+    background-color: purple;
+    display: inline;
+}
+span{
+    padding-left: 6px;
+}
+button{
+    background-color: maroon;
+    color: white;
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;;
+}
+.darkwhite{
+    height: 20px;
+    width:40px;
+
+}

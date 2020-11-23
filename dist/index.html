@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uf-8">
+      <meta name="viewport" content="device=width-device, initial-scale=1.0"/> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Covid-19 App</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+
+    <!--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
+</head>
+<body>
+<div class="header"><b>Covid-19 App</b> <button class="darkwhite" onclick='darkscreen()'; ondblclick='whitescreen()';>Dark</button></div>
+<hr>
+<div class="container">
+    <form class="form" autocomplete="on">
+        <div class="enter-country">
+            <b>Enter a Country Name:</b>
+        </div>
+    <div>
+        <input type="search" class="country-name">
+    </div><br>
+    <button class="search-btn">Search</button>
+        </form>
+
+
+        <div class="result">
+            <div class="loading">loading...</div>
+            <div class="errors"></div>
+            <div class="data"></div>
+            <div class="result-container">
+                <p><strong>Country: </strong><span class="country"></span></p>
+                <p ><strong class="NC">New Cases: </strong><span class="todayCases"></span></p>
+                <p><strong class="TD">Today Deaths: </strong><span class="todayDeaths"></span></p>
+                <p><strong class="TC" >Total Cases: </strong><span class="cases"></span></p>
+                <p ><strong class="recov">Total Recovered: </strong><span class="recovered"></span></p>
+                <p><strong class="TD">Total Deaths: </strong><span class="deaths"></span></p>
+                <p><strong>Total Tests: </strong><span class="totalTests"></span></p>
+               <marquee><center><span class="safe">Stay Safe and Healthy</span></center></marquee> 
+                <center><span class="safe">Created By Goodness Ojeaga</span></center>
+            </div>
+        </div>
+
+
+<script src="js/index.js" defer></script>
+</body>
+
+</html>
